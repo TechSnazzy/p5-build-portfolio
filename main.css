@@ -1,3 +1,33 @@
 * {
   font-family: sans-serif;
+  margin: 0;
+}
+
+#main {
+  background: purple;
+  width: 400px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#welcome-section {
+  background: yellow;
+  padding: 10px;
+  margin: 10px 10px 5px 10px;
+}
+
+#projects {
+  background: orange;
+  padding: 10px;
+  margin: 5px 10px 10px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.project-tile {
+  height: 100px;
+  border: 2px solid blue;
+  padding: 5px;
 }
