@@ -4,7 +4,7 @@
 }
 
 #main {
-  background: purple;
+  background: red;
   width: 400px;
   margin: 20px auto;
   display: grid;
@@ -22,12 +22,15 @@
   padding: 10px;
   margin: 5px 10px 10px 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 5px;
 }
 
 .project-tile {
-  height: 100px;
-  border: 2px solid blue;
+  border: 2px solid purple;
   padding: 5px;
+}
+
+.project-img {
+  width: 50%;
 }
