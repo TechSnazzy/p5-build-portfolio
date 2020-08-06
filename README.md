@@ -2,7 +2,7 @@
 
 ## References
 
-## Reset back to previous commit if needed
+## Some notes to reset back to previous commit if needed
 
 ```
 git log --oneline
